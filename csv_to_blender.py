@@ -29,7 +29,7 @@ def get_or_create_object(name):
     return obj
 
 
-csv_path = bpy.path.abspath("C:\\Users\\totor\\Desktop\\Antiquaire\\programmation\\data\\murs.csv")
+csv_path = bpy.path.abspath("C:\\Users\\totor\\Desktop\\Antiquaire\\programmation\\data\\murs_export.csv")
 with open(csv_path, "r", encoding="utf-8") as f:
     reader = csv.DictReader(f)
     updated, created = 0, 0
